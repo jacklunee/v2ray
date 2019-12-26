@@ -3,6 +3,8 @@
 一键安装代码：
 
 ——————————————————————————————————————————
+
+
 第一种安装方式
 
 git clone https://github.com/jacklunee/v2ray -b master
@@ -11,17 +13,22 @@ chmod +x install.sh
 ./install.sh local 
 
 ———————————————————————————————————————
+
+
 第二种安装方式
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/jacklunee/v2ray/master/install.sh && bash install.sh
 
 ——————————————————————————————————————
 
+
 第三种安装方式
 
 bash <(curl -s -L https://raw.githubusercontent.com/jacklunee/v2ray/master/install.sh)
 
 —————————————————————————————————————
+
+
 CentOS7开启端口（永久）
 方法一：使用firewall
 1、运行命令：
