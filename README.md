@@ -53,3 +53,13 @@ firewall-cmd --query-port=6379/tcp
 
 Centos7-----firewalld详解
 https://blog.51cto.com/11638832/2092203
+
+ Centos7下防火墙开启 80 443 端口
+
+开启 80 443 端口  
+[root@dfdf ~]# firewall-cmd --zone=public --add-port=80/tcp --permanent   success  
+[root@dfdf ~]# firewall-cmd --zone=public --add-port=443/tcp --permanent   success 
+重启防火墙  
+[root@dfdf ~]# firewall-cmd --reload
+
+
