@@ -50,3 +50,6 @@ firewall-cmd --reload
 4、查看端口号是否开启，运行命令：
 
 firewall-cmd --query-port=6379/tcp
+
+Centos7-----firewalld详解
+https://blog.51cto.com/11638832/2092203
