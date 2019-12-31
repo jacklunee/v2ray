@@ -62,4 +62,8 @@ https://blog.51cto.com/11638832/2092203
 重启防火墙  
 [root@dfdf ~]# firewall-cmd --reload
 
+config.json > v2ray 配置文件，（使用脚本修改配置的话，这个文件会重新生成）
+233blog_v2ray_config.json > 客户端配置文件，（使用脚本修改配置的话，这个文件会重新生成）
+233blog_v2ray_backup.conf > 脚本配置文件
+etc/v2ray文件夹里面的233blog_v2ray_config.json文件里面的443端口改成你自己的端口
 
